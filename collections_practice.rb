@@ -20,6 +20,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.select {|x| x.start_with?("A")}
+  array.select {|x| x == x.start_with?("A")}
   array
 end
