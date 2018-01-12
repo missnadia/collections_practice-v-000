@@ -6,8 +6,7 @@ def sort_array_desc(int)
   int.sort {|x, y| y <=> x}
 end
 
-def swap_elements_from_to(array, index, destination_index)
-  index = array[x]
-  destination_index = array[y]
-  array[x], array[y] = array[y], array[x]
+def swap_elements(array)
+  array[2], array[3] = array[3], array[2]
+  array
 end
