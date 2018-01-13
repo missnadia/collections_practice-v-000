@@ -32,7 +32,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |x|
-    x != array[1]? x + "s" : x
-  end
+  array.collect {|x| x != array[1]? x + "s" : x}
 end
